@@ -17,7 +17,9 @@ nav {
 }
 
 article {
+    border: rgb(255, 0, 0) 1px solid;
     grid-area: article;
+    display: grid;
 }
 
 footer {
@@ -53,6 +55,5 @@ ul a {
 }
 
 p {
-    border: rgb(255, 0, 0) 1px solid;
     text-align: center;
 }
