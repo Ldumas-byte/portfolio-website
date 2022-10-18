@@ -23,18 +23,20 @@ footer {
 nav,
 footer {
     background-color: steelblue;
-    border: black 1px solid;
+    border: black 2px solid;
 }
 
 article {
-    border: rgb(255, 0, 0) 3px solid;
+    background-color: steelblue;
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 25px;
     grid-area: article;
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 11rem;
     margin-left: 11rem;
     margin-right: 10rem;
-    height: 22%;
+    height: 18%;
 }
 
 ul {
@@ -48,10 +50,39 @@ ul a {
 
 .top-nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.top-nav ul {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.top-nav ul li {
+    margin-left: 0.5rem;
 }
 
 .bottom-nav {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.bottom-nav ul {
+    display: flex;
+}
+
+.bottom-nav ul li {
+    margin-left: 0.5rem;
+}
+
+.logo {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 1rem;
 }
 
 p {
