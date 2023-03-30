@@ -22,21 +22,25 @@ footer {
 
 nav,
 footer {
-    background-color: steelblue;
-    border: black 2px solid;
+    background-color: #222222;
+    border: black 1px solid;
 }
 
 article {
-    background-color: steelblue;
-    border: rgb(0, 0, 0) 2px solid;
-    border-radius: 25px;
+    background-color: #2b2a2a;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 20px;
     grid-area: article;
     color: white;
     text-align: center;
-    margin-top: 11rem;
-    margin-left: 11rem;
-    margin-right: 10rem;
-    height: 18%;
+    margin-top: 8rem;
+    margin-left: 20rem;
+    margin-right: 11rem;
+    max-height: 55%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 
 ul {
@@ -85,6 +89,10 @@ ul a {
     margin-left: 1rem;
 }
 
+h2 {
+    margin-top: 1rem;
+}
+
 p {
-    height: 22%;
+    font-size: large;
 }
