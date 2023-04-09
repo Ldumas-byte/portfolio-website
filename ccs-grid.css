@@ -4,13 +4,13 @@
 }
 
 .body-container {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2rem 1fr 2rem;
     grid-template-areas: "nav nav nav" "article article article" "footer footer footer";
-    background-color: #E8E8E8;
+    background-color: #ffffff;
 }
 
 nav {
@@ -31,16 +31,14 @@ footer {
 
 article {
     background-color: #282828;
-    border: rgb(0, 0, 0) 1px solid;
     border-radius: 20px;
     grid-area: article;
     color: white;
     text-align: center;
     margin-top: 9rem;
-    margin-left: 16rem;
-    margin-right: 11rem;
-    max-height: 35%;
-    max-width: 55%;
+    margin-left: 19rem;
+    max-height: 45%;
+    max-width: 45%;
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
@@ -94,9 +92,15 @@ ul a {
 
 h1 {
     margin-top: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     font-size: large;
     height: 10rem;
+    width: 25rem;
+    margin-left: 3rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
