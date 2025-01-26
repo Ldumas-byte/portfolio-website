@@ -5,16 +5,21 @@
 
 .grid-page-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr   ;
     grid-template-rows: 2rem 1fr 2rem;
     grid-template-areas: "nav nav nav" "body body body" "footer footer footer";
     color: rgb(255, 255, 255);
     height: 100vh;
-    background-color: #292834;
+    background-color: #ffffff;
 }
 
 .body-container {
     grid-area: body;
+}
+div{
+     display: flex;
+      justify-content: center;
+      align-items: center;
 }
 
 .top-nav {
@@ -31,18 +36,20 @@ nav,
 footer {
     background-color: #202020;
     border: rgb(203, 203, 203) 1px solid;
+    height: 100%;
 }
 
 article {
-    background-color: #282828;
+    background-color: #202020;
     border-radius: 20px;
     color: white;
-    text-align: center;
-    max-height: 45%;
+    text-align: center; 
+     height: auto;
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
-    margin-top: 8rem;
+   
+    
+     
 }
 
 ul {
@@ -65,7 +72,7 @@ ul a {
 .top-nav ul {
     display: flex;
     margin-right: 1rem;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .top-nav ul li {
@@ -103,7 +110,7 @@ h1 {
 
 p {
     font-size: large;
-    height: 10rem;
+    height: 6rem;
     width: 25rem;
     margin-left: 3rem;
     text-align: center;
