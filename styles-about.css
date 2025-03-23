@@ -67,6 +67,7 @@ ul a {
     align-items: center;
     border-radius: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .top-nav ul {
@@ -84,6 +85,7 @@ ul a {
     align-items: center;
     justify-content: center;
     border-radius: 25px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 

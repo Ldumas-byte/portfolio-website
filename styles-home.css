@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.grid-page-container {
+    display: grid;
+    grid-template-columns: 1fr   ;
+    grid-template-rows: 2rem 1fr 2rem;
+    grid-template-areas: "nav nav nav" "body body body" "footer footer footer";
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.body-container {
+    grid-area: body;
+}
+div{
+     display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.top-nav {
+    grid-area: nav;
+    margin-top: 2px;
+}
+
+.bottom-nav {
+    grid-area: footer;
+    margin-bottom: 2px;
+}
+
+nav,
+footer {
+    background-color: #202020;
+    border: rgb(203, 203, 203) 1px solid;
+    height: 100%;
+}
+
+article {
+    background-color: #202020;
+    border-radius: 20px;
+    color: white;
+    text-align: center; 
+     height: auto;
+    display: flex;
+    flex-direction: column;
+   
+    
+     
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.top-nav ul {
+    display: flex;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.top-nav ul li {
+    margin-left: 0.5rem;
+}
+
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-nav ul {
+    display: flex;
+}
+
+.bottom-nav ul li {
+    margin-left: 0.5rem;
+}
+
+.logo {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+h1 {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+
+p {
+    font-size: large;
+    height: 6rem;
+    width: 25rem;
+    margin-left: 3rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 2rem;
+}
